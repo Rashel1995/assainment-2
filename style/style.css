@@ -42,8 +42,8 @@ h1{
     margin-bottom: 20px;
 }
 .buttton{
-    padding: 10px 20px;
-    background-color: hsl(6, 95%, 45%);
+    padding: 10px 30px;
+    background-color:#e84393;
     font-size: 20px;
     color:white;
     border-radius: 10px;
@@ -94,7 +94,38 @@ h1{
 }
 .see-more a{
     text-decoration: none;
-    color: hsl(6, 95%, 45%);
+    color: #e84393;
+}
+
+/* ------------------------------------
+         countuct-form
+--------------------------------------*/
+
+
+
+.contucts{
+   text-align: center;
+   height: 300px;
+    align-items: center;
+}
+ 
+.lavel-part{
+    font-size: 30px;
+   
+}
+
+input{
+    border: 2px solid;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-size: 24px;
+    outline: none;
+}
+.buttton form{
+    display: flex;
+    justify-content: center;
+    
 }
 
 
